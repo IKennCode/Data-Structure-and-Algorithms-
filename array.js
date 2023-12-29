@@ -47,6 +47,30 @@
 
 // Looping an Array
 
+// let arr = ["orange", "apple", "cherry", "banana"];
+
+// for (let i=0; i < arr.length; i++) {
+//     console.log(arr[i])
+// }
+
+// while loop
+// let i = 0;
+// while (i < arr.length) {
+
+//     console.log(arr[i])
+//     i++;
+// }
+
+
+// Inbuilt Loop Methods
+let numbers = [1, 2, 3, 4, 5];
+
+// Map in Javascript
+numbers.map((item, index, array) => {
+    // return item + 3;
+    console.log (item, index, array)
+})
+// console.log (item, index, array)
 
 
 
